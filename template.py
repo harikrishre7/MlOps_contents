@@ -13,7 +13,7 @@ list_of_files = [
     "src/pipeline/__init__.py",
     "src/pipeline/training_pipeline.py",
     "src/pipeline/prediction_pipeline.py",
-    "src/utils/__init__.py"
+    "src/utils/__init__.py",
     "src/utils/utils.py",
     "src/logger/logging.py",
     "src/exception/exceptions.py",
@@ -38,5 +38,5 @@ for filepath in list_of_files:
 
     if (not os.path.exists(filepath)) or (os.path.getsize(filepath)==0):
         with open(filepath,'w') as f:
-            pass ## create an empty file.pyth
+            pass          ## create an empty file.
 
